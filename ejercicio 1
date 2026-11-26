@@ -1,0 +1,18 @@
+Algoritmo Areadeunrectangulo
+	//Entrada 
+	Definir base Como Real
+	Definir altura Como Real
+	Definir area como real 
+	//Proceso 
+	Escribir 'ingrese la base del rectangulo'
+	Leer base 
+	Escribir 'ingrese la altura del rectangulo'
+	leer altura 
+	
+	area=base*altura
+	
+	//Salida
+	
+	Escribir 'area del reactangulo: ', area
+
+FinAlgoritmo
