@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Entrada
+    double precio;
+    double cantidad;
+    double preciototal;
+    double descuento;
+
+    // Proceso
+    cout << "Ingrese el precio del producto comprado: ";
+    cin >> precio;
+
+    cout << "Ingrese cantidad del producto comprado: ";
+    cin >> cantidad;
+
+    // precio total con el 10% de descuento (* 0.9)
+    preciototal = (precio * cantidad) * 0.9;
+
+    // Salida
+    cout << "Precio total con un descuento de 10%: " << preciototal << endl;
+
+    return 0;
+}
