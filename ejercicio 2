@@ -1,0 +1,19 @@
+Algoritmo Compras
+	Definir precio Como Real
+	Definir cantidad como real 
+	Definir preciototal como real 
+	Definir descuento como real 
+	
+	//Proceso
+	
+	Escribir 'Ingrese el precio del producto comprado'
+	Leer precio
+	Escribir 'Ingrese cantidad del producto comprado'
+	Leer cantidad
+	
+	preciototal=(precio*cantidad)*0.9
+	
+	Escribir 'Precio total con un descuento de 10%:  ', preciototal
+	
+
+FinAlgoritmo
